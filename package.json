@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A portfolio template built with Redux and React",
   "homepage": "https://immortalstar7.github.io/dhrumit-portfolio",
+  "engines": {
+    "node": "6.9.4"
+  },
   "scripts": {
     "slate": "rm -rf node_modules && npm install",
     "clean": "rm -rf dist",
@@ -18,16 +21,17 @@
   },
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.3",
-    "react": "^0.13.3",
-    "react-router": "^1.0.0-rc1",
-    "redux-router": "^1.0.0-beta3",
-    "react-redux": "^2.1.2",
-    "redux": "^3.0.0",
-    "redux-thunk": "^0.1.0",
-    "history": "1.13.0",
+    "axios": "^0.7.0",
     "classnames": "^2.1.5",
-    "axios": "^0.7.0"
+    "express": "^4.13.3",
+    "history": "1.13.0",
+    "postinstall-build": "^3.0.1",
+    "react": "^0.13.3",
+    "react-redux": "^2.1.2",
+    "react-router": "^1.0.0-rc1",
+    "redux": "^3.0.0",
+    "redux-router": "^1.0.0-beta3",
+    "redux-thunk": "^0.1.0"
   },
   "devDependencies": {
     "babel": "^5.8.21",
