@@ -72,7 +72,7 @@
 
 .tesco {
 	background:#fff url(assets/adinath.png) top no-repeat;
-	background-size: contain;
+	background-size: contain !important;
 }
 
 .timeout {
@@ -82,5 +82,5 @@
 
 .pwul {
 	background:#fff url(assets/genapsys.png) top no-repeat;
-	background-size: contain;
+	background-size: contain !important;
 }
